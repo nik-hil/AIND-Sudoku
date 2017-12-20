@@ -17,3 +17,13 @@ An agent is anything that can be viewed as perceiving its environment through se
 An intelligent agent is one that takes actions to maximize its expected utility given a desired goal.
 
 
+Strategies to solve Sudoku
+---------
+
+ 1. **Eliminate** For each solved boxes, eliminate this value from the values of all its peers.
+ 1. **only_choice** Go through all the units, and whenever there is a unit with a value that only fits in one box, assign the value to this box.
+ 1. **reduce_puzzle** Iterate eliminate() and only_choice(). If at some point, there is a box with no available values, return False. If the sudoku is solved, return the sudoku. If after an iteration of both functions, the sudoku remains the same, return the sudoku.
+ 1. **search** Use depth search to call above fun to solve sudoku. Restrict the search for solution with boxes which have fewer possibilities.
+ 1. **naked_twin** If two possible number are peer. Remove these number from other boxes of peer.
+    
+ 

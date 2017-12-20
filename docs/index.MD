@@ -13,7 +13,7 @@ What is Agent, Environment & State?
 --------------
 An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.
 
-![env-agent](https://github.com/nik-hil/AIND-Sudoku/blob/master/docs/images/env.jpeg "Logo Title Text 1")
+[[https://github.com/nik-hil/AIND-Sudoku/blob/master/docs/images/env.jpeg?raw=true |alt=env-agent]]
 
 An intelligent agent is one that takes actions to maximize its expected utility given a desired goal.
 
